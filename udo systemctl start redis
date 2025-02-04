@@ -1,0 +1,13 @@
+● redis-server.service - Advanced key-value store
+     Loaded: loaded (/lib/systemd/system/redis-server.service; enabled; vendor preset: enabled)
+     Active: inactive (dead) since Tue 2025-02-04 19:52:35 UTC; 2h 7min ago
+       Docs: http://redis.io/documentation,
+             man:redis-server(1)
+   Main PID: 878409 (code=exited, status=0/SUCCESS)
+
+Feb 04 19:02:29 instance-20241216-034853 systemd[1]: Starting Advanced key-value store...
+Feb 04 19:02:29 instance-20241216-034853 systemd[1]: redis-server.service: Can't open PID file /run/redis/redis-server.pid (yet?) after start: Operation not permitted
+Feb 04 19:02:29 instance-20241216-034853 systemd[1]: Started Advanced key-value store.
+Feb 04 19:52:35 instance-20241216-034853 systemd[1]: Stopping Advanced key-value store...
+Feb 04 19:52:35 instance-20241216-034853 systemd[1]: redis-server.service: Succeeded.
+Feb 04 19:52:35 instance-20241216-034853 systemd[1]: Stopped Advanced key-value store.
